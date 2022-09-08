@@ -7,5 +7,4 @@ while True:
     print('Текущий список чисел:', numbers)
 
     for i in numbers:
-        print(i ** 2, i ** 3, i ** 4)
-        print("")
+        print(i ** 2, i ** 3, i ** 4, sep="\t")
